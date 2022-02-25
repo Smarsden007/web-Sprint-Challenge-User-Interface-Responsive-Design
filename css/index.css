@@ -90,12 +90,25 @@ header {
     height: 100vh;
     background-image: url('../img/home-header.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-color: rgba(255,0,0,0.3) ;
+    align-items: center;
+    text-align: center;
  
 }
-
+.fa-facebook{
+    background: white;
+    padding:20px;
+}
+.fa-twitter{
+    background:white;
+    padding: 20px;
+}
+.fa-instagram{
+    background:white;
+    padding:20px;
+}
 nav {
     width: 100%;
     top: 0;
@@ -127,7 +140,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
 }
-.items{
+.container{
     margin: 100%;
     width: 100px;
     height: 100px;

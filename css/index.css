@@ -131,22 +131,13 @@ nav {
 }
 
 /* gallery section */
-.gallery {
+.gallery-container {
     width: 100%;
-    margin: 0 -5px;
+    height: 100vh;
     text-align: center;
-    align-items: center;
-    background-color: rgb(210, 216, 238);
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    background-color: rgb(0, 4, 17);
 }
-.container{
-    margin: 100%;
-    width: 100px;
-    height: 100px;
-}
+
 /* about us section */
 .about {
     width: 100%;
